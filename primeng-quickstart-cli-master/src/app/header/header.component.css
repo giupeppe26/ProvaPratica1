@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    background-color: rgb(92, 92, 92);
+    width: 100%;
+    justify-content: center;
+    opacity: 70%;
+    
+}
+.titolo{
+    display: flex;
+    justify-content: center;
+}
+div h1{
+    color: rgb(252, 92, 92);
+}
+.search{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    right: 0;
+    top:0;
+}
+nav ul{
+    list-style: none;
+}
+.tool{
+    display:flex;
+    justify-content: center;
+}

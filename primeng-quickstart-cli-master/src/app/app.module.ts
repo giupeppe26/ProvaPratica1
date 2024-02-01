@@ -17,10 +17,14 @@ import { ToolbarModule } from 'primeng/toolbar';
 import { ConfirmationService } from 'primeng/api';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        HeaderComponent,
+        NavbarComponent
     ],
     imports: [
         BrowserModule,

@@ -19,6 +19,8 @@ import { ConfirmationService } from 'primeng/api';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import {MenubarModule} from 'primeng/menubar';
+
 
 @NgModule({
     declarations: [
@@ -41,7 +43,8 @@ import { NavbarComponent } from './navbar/navbar.component';
         InputTextareaModule,
         RadioButtonModule,
         DropdownModule,
-        ButtonModule
+        ButtonModule,
+        MenubarModule
     ],
     providers: [ConfirmationService],
     bootstrap: [AppComponent]

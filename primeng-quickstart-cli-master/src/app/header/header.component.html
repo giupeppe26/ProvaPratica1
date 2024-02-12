@@ -3,16 +3,8 @@
         <h1>Prova Pratica 1</h1>
     </div>
 </div>
-<div class="containerUnderTitle">
-<div class="bottoni">
-    <nav>
-        <ul>
-            <li><button pButton pRipple type="button" label="Home" class="p-button-danger p-button-text"></button></li>
-            <li><button pButton pRipple type="button" label="Film" class="p-button-danger p-button-text"></button></li>
-            <li><button pButton pRipple type="button" label="Contact Us" class="p-button-danger p-button-text"></button></li>
-        </ul>
-    </nav>
-</div>
 
-<input id="firstname1" type="text" placeholder="Cerca..." pInputText> 
-</div>
+<p-menubar [model]="items">
+    <input type="text" [(ngModel)]="queryCerca" pInputText placeholder="Cerca..." style="color:rgb(252, 92, 92);">
+    <button pButton pRipple type="button" icon="pi pi-search" style="color:rgb(252, 92, 92);" class="p-button-rounded p-button-outlined" (click)="showValore()"></button>
+</p-menubar>
